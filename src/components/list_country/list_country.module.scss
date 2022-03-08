@@ -1,0 +1,29 @@
+.country_list{
+  position: relative;
+  width: max-content;
+  &:hover{
+    .dropdown_list{
+      display: block;
+    }
+  }
+  .active_country{
+
+  }
+  .active_country,
+  .dropdown_list{
+    a{
+      text-decoration: none;
+    }
+    span{
+      color: #333;
+      font-size: 14px;
+      font-family: "OpenSans-Regular",sans-serif;
+      line-height: 1.5em;
+    }
+  }
+  .dropdown_list{
+    display: none;
+    position: absolute;
+    left: 0;
+  }
+}

@@ -1,0 +1,32 @@
+.item{
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+    img{
+      max-width: 389px;
+      width: 100%;
+      display: block;
+    }
+  .content{
+    max-width: 520px;
+    width: 100%;
+  }
+}
+.wrapper_slider{
+  position: relative;
+}
+.arrows{
+  position: absolute;
+  z-index: 600;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  .next{
+    display: block;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+
+  }
+}
